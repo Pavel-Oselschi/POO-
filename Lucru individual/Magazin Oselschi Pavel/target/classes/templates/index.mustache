@@ -1,0 +1,34 @@
+{{> layout/default}}
+{{#content}}
+    <div class="container mt-4">
+        <div class="jumbotron">
+            <h1 class="display-4">Magazin Oselschi Pavel  manager</h1>
+            <p class="lead">Bine ati venit in magazinul nostru </p>
+            <p>Total Produse: {{totalProducts}}</p>
+            <p>Total Cateforie: {{totalCategories}}</p>
+            <p>Total Locatie (Zonele): {{totalLocations}}</p>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Produse</h5>
+                        <p class="card-text">Gestionează-ți catalogul de produse</p>
+                        <a href="/products" class="btn btn-primary">Mergi la produse</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Inventariere</h5>
+                        <p class="card-text">Urmează modificările stocului</p>
+                        <a href="/inventory" class="btn btn-primary">Mergi la inventariere </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{{/content}}
